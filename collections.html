@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Collections</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Offer Banner -->
+    <div class="offer-bar" id="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order</p>
+        <i id="offer-close" class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="index.html#new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="index.html#most-wanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contactus.html">Contact Us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" id="side-navbar-activate">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Side Navbar Drawer -->
+    <div class="side-navbar" id="side-navbar">
+        <p style="text-align: right;">
+            <i id="side-navbar-close" class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="index.html#new-arrival">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="index.html#most-wanted">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contactus.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="divide-section">
+            <!-- Left Filter Sidebar -->
+            <div class="filter-section">
+                <h3 class="filter-section-occasion">Occasion</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="summer"> Summer <br>
+                    <input type="checkbox" name="tags" value="party"> Party <br>
+                    <input type="checkbox" name="tags" value="beach"> Beach
+                </div>
+
+                <h3 class="filter-section-colors">Colors</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="red"> Red <br>
+                    <input type="checkbox" name="tags" value="blue"> Blue <br>
+                    <input type="checkbox" name="tags" value="white"> White <br>
+                    <input type="checkbox" name="tags" value="green"> Green
+                </div>
+
+                <h3 class="filter-section-arrivals">Arrivals</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="new"> New <br>
+                    <input type="checkbox" name="tags" value="old"> Old
+                </div>
+
+                <hr class="vertical-line">
+            </div>
+
+            <!-- Right Product Grid & Search -->
+            <div class="product-section">
+                <form class="navbar-search" onsubmit="return false;">
+                    <input type="search" id="search-input" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+
+                <div class="products" id="products-container">
+                    <div class="product" data-tags="summer,red,new">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=500&q=80" alt="Floral Summer Shirt">
+                        <h1>Floral Summer Shirt</h1>
+                        <p>₹220</p>
+                    </div>
+                    <div class="product" data-tags="summer,green,new">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80" alt="Summer Green">
+                        <h1>Summer Green</h1>
+                        <p>₹260</p>
+                    </div>
+                    <div class="product" data-tags="party,red,old">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80" alt="Party Floral Shirt">
+                        <h1>Party Floral Shirt</h1>
+                        <p>₹399</p>
+                    </div>
+                    <div class="product" data-tags="beach,blue,new">
+                        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=500&q=80" alt="Floral Summer Shirt">
+                        <h1>Floral Summer Shirt</h1>
+                        <p>₹399</p>
+                    </div>
+                    <div class="product" data-tags="beach,white,old">
+                        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&q=80" alt="Beach Shirt">
+                        <h1>Beach Shirt</h1>
+                        <p>₹579</p>
+                    </div>
+                    <div class="product" data-tags="party,red,new">
+                        <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=500&q=80" alt="Shirt Party Red">
+                        <h1>Shirt Party Red</h1>
+                        <p>₹579</p>
+                    </div>
+                    <div class="product" data-tags="party,blue,old">
+                        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=80" alt="Party Floral Shirt">
+                        <h1>Party Floral Shirt</h1>
+                        <p>₹399</p>
+                    </div>
+                    <div class="product" data-tags="party,red,new">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=80" alt="Shirt Party Red">
+                        <h1>Shirt Party Red</h1>
+                        <p>₹579</p>
+                    </div>
+                    <div class="product" data-tags="summer,white,new">
+                        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=80" alt="Floral Summer Shirt">
+                        <h1>Floral Summer Shirt</h1>
+                        <p>₹220</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Letter -->
+        <div class="news">
+            <h2>Join our News Letter</h2>
+            <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div style="margin-top: 10px;">
+                <input class="search" type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p class="subtitle">@ 2026 Nostra.com</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
