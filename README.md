@@ -21,6 +21,9 @@ Nostra is a modern, responsive multi-page fashion e-commerce frontend built usin
 - **JavaScript (ES6):** DOM manipulation for slider controls, mobile drawer toggling, wishlist state, and real-time search/checkbox filtering (`index.js`)
 - **Icons & Fonts:** Font Awesome 6 & Google Fonts (*Poppins*)
 
+## 🚀 live Demo
+[https://errortitus.github.io/trip-advisor-clone/]
+
 ## Project Structure
 
 ```text
