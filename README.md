@@ -22,7 +22,7 @@ Nostra is a modern, responsive multi-page fashion e-commerce frontend built usin
 - **Icons & Fonts:** Font Awesome 6 & Google Fonts (*Poppins*)
 
 ## 🚀 live Demo
-[https://errortitus.github.io/trip-advisor-clone/]
+[(https://errortitus.github.io/Nostra-ecommerce-clone/)]
 
 ## Project Structure
 
